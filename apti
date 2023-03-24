@@ -1,0 +1,2 @@
+source $HOME/.apti-cfg
+apt install $@ $arg

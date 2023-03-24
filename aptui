@@ -1,0 +1,8 @@
+apt update
+if [ -f $HOME/.apti-cfg ]
+then
+source $HOME/.apti-cfg
+else
+echo .apti-cfg is not found, creating...
+touch $HOME/.apti-arg
+apt install $@ $arg

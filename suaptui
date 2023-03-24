@@ -1,0 +1,3 @@
+read -r arg < $HOME/.apti-arg
+sudo apt update
+apt install $@ $arg
