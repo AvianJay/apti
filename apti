@@ -1,2 +1,0 @@
-read -r arg < $HOME/.apti-args
-apt install $@ $arg
